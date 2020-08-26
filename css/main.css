@@ -1,0 +1,32 @@
+.wrapper{
+	flex-direction: column;
+}
+.main_content{
+	flex-direction: row;
+}
+a{
+	display: block;
+	margin:10px;
+}
+
+main{
+	padding-top: 0 !important;
+	width: 70%;
+	margin:0 auto;
+}
+header{
+
+	height: 50px;
+}
+
+
+@media (max-width: 967px) {
+	main{
+		padding:0 !important;
+	}
+
+}
+
+h3,h5,th{
+	font-family: Lobster;
+}

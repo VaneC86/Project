@@ -1,0 +1,64 @@
+.main{
+	display: flex;
+	flex-direction: column;
+}
+.main input{
+	margin: 5px;
+	border-radius: 5px;
+}
+.data{
+
+	display: flex;
+	flex-direction: column;
+}
+
+#names{
+    margin-top: 25px;
+
+}
+#names p{
+    display: flex;
+    margin: 1px 7px;
+}
+#names div{
+	display: flex;
+
+}
+.info{
+	text-align: center;
+	
+}
+.info h3{
+	text-align: left;
+	/*margin-left: 20px;*/
+}
+.value{
+	display: flex;
+}
+.values div input {
+    width: 120px;
+	font-size: 18px;
+	
+}
+.values div {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	
+}
+
+#first,#second{
+	padding: 6px 44px;
+    padding-left: 2px;
+    border-radius: 7px;
+}
+.info td{
+    padding: 5px;
+}
+#buy_sell{
+    margin-left: 45px;
+}
+
+#buy_sell h5{
+	display: inline-block;
+	margin: 0 10px;
+}
